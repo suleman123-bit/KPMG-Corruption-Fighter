@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #1a3e8c;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-profile {
+    display: flex;
+    align-items: center;
+}
+
+.header-profile .profile-pic {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header-profile .profile-name {
+    margin-right: 15px;
+}
+
+.header-profile .icon {
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.content {
+    flex: 1;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkmark {
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #1a3e8c;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.profile-button {
+    background-color: #5bb6f9;
+}
+
+.logout-button {
+    background-color: #3398eb;
+}

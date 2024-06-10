@@ -1,0 +1,374 @@
+.informasjonsside-child {
+    position: absolute;
+    top: 748px;
+    left: calc(50% - 727px);
+    background-color: var(--color-darkslateblue);
+    width: 1440px;
+    height: 270px;
+}
+.oss-opprettholde {
+    position: absolute;
+    top: 841px;
+    left: 974px;
+    font-weight: 700;
+}
+.beslutningsprosesser {
+    position: absolute;
+    top: 865px;
+    left: 974px;
+    font-weight: 700;
+}
+.og-hndtert-p {
+    position: absolute;
+    top: 817px;
+    left: 974px;
+    font-weight: 700;
+}
+.blir-hndtert-p {
+    position: absolute;
+    top: 865px;
+    left: 529px;
+    font-weight: 700;
+}
+.engasjementer-og-sikre {
+    position: absolute;
+    top: 841px;
+    left: 528px;
+    font-weight: 700;
+}
+.annen-organisasjon-registrer {
+    position: absolute;
+    top: 793px;
+    left: 529px;
+    font-weight: 700;
+}
+.her-for {
+    position: absolute;
+    top: 817px;
+    left: 529px;
+    font-weight: 700;
+}
+.registrer-dine-eierinteresser {
+    position: absolute;
+    top: 792px;
+    left: 12px;
+    font-weight: 700;
+}
+.potensielle-interessekonflikte {
+    position: absolute;
+    top: 817px;
+    left: 9px;
+    font-weight: 700;
+}
+.pen-og-ansvarlig {
+    position: absolute;
+    top: 842px;
+    left: 9px;
+    font-weight: 700;
+}
+.informasjonsside-item {
+    position: absolute;
+    top: 432px;
+    left: 0px;
+    width: 520px;
+    height: 322px;
+    object-fit: cover;
+}
+.informasjonsside-inner {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 720px);
+    width: 1440px;
+    height: 312px;
+    object-fit: cover;
+}
+.group-child {
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    background-color: var(--color-gainsboro);
+    border: 3px solid var(--color-white);
+    box-sizing: border-box;
+    width: 41.1px;
+    height: 58.2px;
+}
+.group-item {
+    position: absolute;
+    top: -3px;
+    left: 41.84px;
+    background-color: var(--color-gainsboro);
+    border: 3px solid var(--color-white);
+    box-sizing: border-box;
+    width: 50.8px;
+    height: 58.2px;
+}
+.group-inner {
+    position: absolute;
+    top: -3px;
+    left: 96.42px;
+    background-color: var(--color-gainsboro);
+    border: 3px solid var(--color-white);
+    box-sizing: border-box;
+    width: 50.8px;
+    height: 58.2px;
+}
+.rectangle-div {
+    position: absolute;
+    top: -3px;
+    left: 151.01px;
+    background-color: var(--color-gainsboro);
+    border: 3px solid var(--color-white);
+    box-sizing: border-box;
+    width: 45px;
+    height: 58.2px;
+}
+.kpmg {
+    position: absolute;
+    top: 17.72px;
+    left: 0px;
+    display: inline-block;
+    font-weight: 700;
+    width: 182.3px;
+    height: 45.3px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rectangle-parent {
+    position: absolute;
+    top: 35px;
+    left: 38px;
+    width: 193px;
+    height: 63px;
+    font-size: var(--font-size-41xl);
+}
+.rectangle-icon {
+    position: absolute;
+    top: 432px;
+    left: 520px;
+    width: 439px;
+    height: 322px;
+    object-fit: cover;
+}
+.informasjonsside-child1 {
+    position: absolute;
+    top: 432px;
+    right: 7px;
+    width: 474px;
+    height: 316px;
+    object-fit: cover;
+}
+.informasjonsside-child2 {
+    position: absolute;
+    top: 309px;
+    left: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+    background-color: var(--color-darkslateblue);
+    width: 1440px;
+    height: 123px;
+}
+.eierinteresser {
+    position: absolute;
+    top: 339px;
+    left: 38px;
+    font-size: var(--font-size-41xl);
+    font-weight: 700;
+}
+.informasjonsside-child3 {
+    position: absolute;
+    top: 308px;
+    left: 520px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+    background-color: var(--color-white);
+    width: 1px;
+    height: 716px;
+}
+.informasjonsside-child4 {
+    position: absolute;
+    top: 308px;
+    left: 958px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+    background-color: var(--color-white);
+    width: 1px;
+    height: 716px;
+}
+.blank-line {
+    margin: 0;
+}
+.text {
+    position: absolute;
+    top: 355px;
+    left: 68px;
+    font-size: var(--font-size-41xl);
+    font-weight: 700;
+}
+.roller {
+    position: absolute;
+    top: 339px;
+    left: 635px;
+    font-size: var(--font-size-41xl);
+    font-weight: 700;
+}
+.relasjoner {
+    position: absolute;
+    top: 339px;
+    left: 1020px;
+    font-size: var(--font-size-41xl);
+    font-weight: 700;
+}
+.fr-du-fortsetter {
+    position: absolute;
+    top: 75px;
+    left: 266px;
+    font-size: var(--font-size-21xl);
+    display: inline-block;
+    font-weight: 700;
+    width: 949px;
+    height: 71px;
+}
+.for-bedre {
+    position: absolute;
+    top: 122px;
+    left: 266px;
+    font-size: var(--font-size-21xl);
+    font-weight: 700;
+}
+.group-child1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 90px;
+    background-color: var(--color-darkslateblue);
+    width: 260px;
+    height: 55px;
+}
+.trykk-her {
+    position: absolute;
+    top: 8.64px;
+    left: 55.78px;
+    display: inline-block;
+    font-weight: 700;
+    width: 160.5px;
+    height: 37.7px;
+    text-decoration: none;
+    color: #ffff;
+}
+.rectangle-group {
+    position: absolute;
+    top: 236px;
+    left: 1153px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+    width: 260px;
+    height: 55px;
+    cursor: pointer;
+    font-size: 32px;
+}
+.har-du-aksjer {
+    position: absolute;
+    top: 767px;
+    left: 12px;
+    display: inline-block;
+    font-weight: 700;
+    width: 508px;
+}
+.har-du-en {
+    position: absolute;
+    top: 768px;
+    left: 529px;
+    font-weight: 700;
+}
+.registrer-dine-relasjoner {
+    position: absolute;
+    top: 772px;
+    left: 976px;
+    font-weight: 700;
+}
+.profile-container-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 57px;
+    background-color: var(--color-white);
+    width: 198px;
+    height: 38px;
+}
+.ola-nordmann {
+    position: absolute;
+    top: 12.09px;
+    left: 31.71px;
+    display: inline-block;
+    width: 92.6px;
+    height: 13.8px;
+}
+.vector-icon {
+    position: absolute;
+    height: 38.68%;
+    width: 6.06%;
+    top: 29.55%;
+    right: 29%;
+    bottom: 31.77%;
+    left: 64.94%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.vector-stroke-icon {
+    position: absolute;
+    top: 11.23px;
+    left: 148.29px;
+    width: 15.4px;
+    height: 14.7px;
+}
+.vector-stroke-icon1 {
+    position: absolute;
+    top: 11.23px;
+    left: 171.43px;
+    width: 12.9px;
+    height: 14.7px;
+}
+.profile-container-item {
+    position: absolute;
+    top: 11.23px;
+    left: 136.29px;
+    border-radius: 50%;
+    background-color: #f87023;
+    width: 6px;
+    height: 6px;
+}
+.wireframe-9 {
+    position: absolute;
+    top: 1.73px;
+    left: 2.4px;
+    border-radius: 120px;
+    width: 29.7px;
+    height: 33.7px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.profile-container {
+    position: absolute;
+    top: 23px;
+    left: 1215px;
+    width: 198px;
+    height: 38px;
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+    font-family: var(--font-noto-sans);
+}
+.potensielle-interessekonflikte1 {
+    position: absolute;
+    top: 793px;
+    left: 976px;
+    font-weight: 700;
+}
+.informasjonsside {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+}
+

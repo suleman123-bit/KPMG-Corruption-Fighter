@@ -1,0 +1,94 @@
+<!-- Alan -->
+
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habilitetsregisteret</title>
+    <link rel="stylesheet" href="KariEierinteresse.css"> <!-- Kobler til CSS-filen -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Habilitetsregisteret</h1>
+        </div>
+        <div class="user-info">
+            <span>Ola Nordmann</span>
+            <img src="Images/Ola.png" alt="User Picture">
+        </div>
+    </header>
+    <div class="container">
+        <div class="note">
+            <img src="Images/Hode.png" alt="Info Icon">
+            <p>HUSK! Hvis du har andre eierinteresser enn det som fremkommer i oversikten må du registrere dette.</p>
+        </div>
+        <h2>Opplyse om eksisterende eller tidligere eierinteresse for Kari Nordmann</h2>
+        <form>
+            <div class="form-group">
+                <label for="country">Land * <span class="question-mark" title="Velg land.">?</span></label>
+                <select id="country" name="country">
+                    <option value="">Velg land</option>
+                    <!-- Add options here -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="organization">Navn på organisasjon * <span class="question-mark" title="Skriv navnet på organisasjonen.">?</span></label>
+                <input type="text" id="organization" name="organization">
+            </div>
+            <div class="form-group">
+                <label for="org-number">Organisasjonsnummer * <span class="question-mark" title="Skriv organisasjonsnummeret.">?</span></label>
+                <input type="text" id="org-number" name="org-number">
+            </div>
+            <div class="form-group">
+                <label>Er selskapet børsnotert? * <span class="question-mark" title="Velg om selskapet er børsnotert.">?</span></label>
+                <div class="radio-group">
+                    <label><input type="radio" name="listed" value="yes"> Ja</label>
+                    <label><input type="radio" name="listed" value="no"> Nei</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="share-class">Aksjeklasse * <span class="question-mark" title="Velg aksjeklasse.">?</span></label>
+                <select id="share-class" name="share-class">
+                    <option value="">Velg</option>
+                    <!-- Add options here -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="shares">Antall aksjer * <span class="question-mark" title="Skriv antall aksjer.">?</span></label>
+                <input type="number" id="shares" name="shares">
+            </div>
+            <div class="form-group">
+                <label>Status drift i selskapet * <span class="question-mark" title="Velg status for drift i selskapet.">?</span></label>
+                <div class="radio-group">
+                    <label><input type="radio" name="status" value="active"> Aktiv</label>
+                    <label><input type="radio" name="status" value="inactive"> Ikke Aktiv</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="ownership-from">Eierskap fra (ikke påkrevd) <span class="question-mark" title="Velg dato for start av eierskap.">?</span></label>
+                <input type="date" id="ownership-from" name="ownership-from">
+            </div>
+            <div class="form-group">
+                <label for="ownership-to">Eierskap til (ikke påkrevd) <span class="question-mark" title="Velg dato for slutt av eierskap.">?</span></label>
+                <input type="date" id="ownership-to" name="ownership-to">
+            </div>
+            <div class="form-group">
+                <label for="comments">Eventuell kommentar <span class="question-mark" title="Skriv eventuelle kommentarer.">?</span></label>
+                <textarea id="comments" name="comments" class="comment"></textarea>
+            </div>
+            <div class="form-group">
+                <label>Er forholdet relevant for din habilitet? <span class="question-mark" title="Velg om forholdet er relevant for din habilitet.">?</span></label>
+                <div class="radio-group">
+                    <label><input type="radio" name="relevant" value="yes"> Ja</label>
+                    <label><input type="radio" name="relevant" value="no"> Nei</label>
+                </div>
+            </div>
+            <div class="buttons">
+                <button type="button"><a href="Relasjoninfo.html">Forrige</a></button>
+                <button type="submit"><a href="KariRoller.html">Videre</a></button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

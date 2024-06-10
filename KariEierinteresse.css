@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    border-radius: 50%;
+}
+
+header .user-info {
+    display: flex;
+    align-items: center;
+}
+
+header .user-info img {
+    margin-left: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.note {
+    background-color: #e0f7fa;
+    border-left: 5px solid #00796b;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.note img {
+    margin-right: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #003366;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group .question-mark {
+    background-color: #113785;
+    color: #fff;
+    border-radius: 50%;
+    padding: 2px 8px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form-group .question-mark:hover {
+    background-color: #0056b3;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group .radio-group {
+    display: flex;
+    align-items: center;
+}
+
+.form-group .radio-group label {
+    margin-right: 20px;
+}
+
+.form-group .radio-group input {
+    margin-right: 5px;
+}
+
+.form-group .comment {
+    height: 100px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #003366;
+    cursor: pointer;
+}
+
+.buttons button a {
+    color: #003366;
+    text-decoration: none;
+}

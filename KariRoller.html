@@ -1,0 +1,97 @@
+<!-- Araz -->
+
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habilitetsregisteret Form</title>
+    <link rel="stylesheet" href="KariRoller.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Habilitetsregisteret</h1>
+        <div class="user-profile">
+            <img src="Images/Ola.png" alt="User Profile">
+            <span>Ola Nordmann</span>
+            <div class="icons">
+                <img src="Images/blå-bjelle.svg" alt="Bell Icon">
+                <img src="Images/blå-tusj.svg" alt="Edit Icon">
+                <img src="Images/blå-pil.svg" alt="Logout Icon">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="info-box">
+            <h2>HUSK!</h2>
+            <p>Hvis du har andre roller enn det som fremkommer i oversikten må du registrere dette.</p>
+        </div>
+        <h2 class="form-title">Opplyse om eksisterende eller tidligere roller Kari Nordmann</h2>
+        <form>
+            <div class="form-group">
+                <label for="country">Land * <span class="question-mark" title="Skriv inn landet.">?</span></label>
+                <input type="text" id="country" name="country" required>
+            </div>
+            <div class="form-group">
+                <label for="organization-name">Navn på organisasjonen * <span class="question-mark" title="Skriv inn navnet på organisasjonen.">?</span></label>
+                <input type="text" id="organization-name" name="organization-name" required>
+            </div>
+            <div class="form-group">
+                <label for="organization-number">Organisasjonsnummer * <span class="question-mark" title="Skriv inn organisasjonsnummeret.">?</span></label>
+                <input type="text" id="organization-number" name="organization-number" required>
+            </div>
+            <div class="form-group">
+                <label for="role-type">Type rolle * <span class="question-mark" title="Velg type rolle.">?</span></label>
+                <select id="role-type" name="role-type" required>
+                    <option value="">Velg...</option>
+                    <!-- Add options here -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="role-title">Tittel på rolle * <span class="question-mark" title="Skriv inn tittelen på rollen.">?</span></label>
+                <input type="text" id="role-title" name="role-title" required>
+            </div>
+            <div class="form-group">
+                <label for="municipality">Kommunen rollen utøves i: <span class="question-mark" title="Skriv inn postnummer og poststed.">?</span></label>
+                <div class="form-group-inline">
+                    <input type="text" id="municipality-zipcode" name="municipality-zipcode" placeholder="Postnr">
+                    <input type="text" id="municipality" name="municipality" placeholder="Poststed">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="monthly-honorarium">Månedlig honorar (NOK) <span class="question-mark" title="Skriv inn månedlig honorar i NOK.">?</span></label>
+                <input type="text" id="monthly-honorarium" name="monthly-honorarium">
+            </div>
+            <div class="form-group">
+                <label for="monthly-hours">Månedlig timeforbruk <span class="question-mark" title="Skriv inn månedlig timeforbruk.">?</span></label>
+                <input type="text" id="monthly-hours" name="monthly-hours">
+            </div>
+            <div class="form-group">
+                <label for="position-from">Posisjon fra (ikke påkrevd) <span class="question-mark" title="Skriv inn startdato for posisjonen.">?</span></label>
+                <input type="text" id="position-from" name="position-from">
+            </div>
+            <div class="form-group">
+                <label for="position-to">Posisjon til (ikke påkrevd) <span class="question-mark" title="Skriv inn sluttdato for posisjonen.">?</span></label>
+                <input type="text" id="position-to" name="position-to">
+            </div>
+            <div class="form-group">
+                <label for="comments">Eventuell kommentar <span class="question-mark" title="Skriv inn eventuelle kommentarer.">?</span></label>
+                <input type="text" id="comments" name="comments">
+            </div>
+            <div class="form-group">
+                <label>Er forholdet relevant for din habilitet? <span class="question-mark" title="Velg om forholdet er relevant for din habilitet.">?</span></label>
+                <div class="radio-group">
+                    <input type="radio" id="habilitet-ja" name="habilitet" value="ja">
+                    <label for="habilitet-ja">Ja</label>
+                    <input type="radio" id="habilitet-nei" name="habilitet" value="nei">
+                    <label for="habilitet-nei">Nei</label>
+                </div>
+            </div>
+            <div class="form-footer">
+                <button type="button" class="btn"><a href="KariEierinteresse.html">Forrige</a></button>
+                <button type="submit" class="btn"><a href="BekreftInfo.html">Fullfør</a></button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

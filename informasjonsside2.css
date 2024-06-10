@@ -1,0 +1,24 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+
+:root {
+    
+    /* fonts */
+    --font-inter: Inter;
+    --font-noto-sans: 'Noto Sans';
+    
+    /* font sizes */
+    --font-size-xl: 20px;
+    --font-size-21xl: 40px;
+    --font-size-41xl: 60px;
+    
+    /* Colors */
+    --color-white: #fff;
+    --color-darkslateblue: #113785;
+    --color-gainsboro: rgba(217, 217, 217, 0);
+    
+}

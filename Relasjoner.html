@@ -1,0 +1,84 @@
+<!-- Alexander -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Relasjoner.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@1,800&display=swap" />
+    <title>Relasjoner</title>
+</head>
+<body>
+    <div class="page-container">
+        <div class="navbar">
+            <div class="title">Habilitetsregisteret</div>
+            <div class="profile-section">
+                <div class="profile">
+                    <img src="Images/Ola.png" alt="Profile Picture">
+                    <span class="name">Ola Nordmann</span>
+                    <img src="Images/blå-bjelle.svg" alt="Varslinger">
+                    <img src="Images/blå-tusj.svg" alt="Oppgaver">
+                    <img src="Images/blå-pil.svg" alt="Loggut">
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="sidebar">
+                <div class="reminder">
+                    <p><strong>HUSK!</strong><br>Hvis du har andre relasjoner enn det som fremkommer i oversikten må du registrere dette.</p>
+                </div>
+            </div>
+            <div class="main">
+                <h2>Opplyse om eksisterende eller tidligere relasjoner</h2>
+                <form>
+                    <label for="first-name">Fornavn/mellomnavn * <span class="question-mark" title="Ditt fornavn eller mellomnavn">?</span></label>
+                    <input type="text" id="first-name" name="first-name">
+
+                    <label for="last-name">Etternavn * <span class="question-mark" title="Ditt etternavn">?</span></label>
+                    <input type="text" id="last-name" name="last-name">
+
+                    <label for="birthdate">Fødselsdato * <span class="question-mark" title="Din fødselsdato">?</span></label>
+                    <div class="birthdate-group">
+                        <input type="text" id="birthdate-day" name="birthdate-day" placeholder="dd">
+                        <input type="text" id="birthdate-month" name="birthdate-month" placeholder="mnd">
+                        <input type="text" id="birthdate-year" name="birthdate-year" placeholder="yyyy">
+                    </div>
+
+                    <label>Bor i utlandet? * <span class="question-mark" title="Bor du i utlandet?">?</span></label>
+                    <div class="radio-group">
+                        <input type="radio" id="abroad-yes" name="abroad" value="yes">
+                        <label for="abroad-yes">Ja</label>
+                        <input type="radio" id="abroad-no" name="abroad" value="no">
+                        <label for="abroad-no">Nei</label>
+                    </div>
+
+                    <label for="address">Adresse * <span class="question-mark" title="Din adresse">?</span></label>
+                    <div class="address-group">
+                        <input type="text" id="address-postcode" name="address-postcode" placeholder="Postnr">
+                        <input type="text" id="address-postplace" name="address-postplace" placeholder="Poststed">
+                    </div>
+
+                    <label for="relation-type">Type relasjon * <span class="question-mark" title="Type relasjon">?</span></label>
+                    <select id="relation-type" name="relation-type">
+                        <option value="">Velg...</option>
+                    </select>
+
+                    <label for="comments">Eventuelt kommentar <span class="question-mark" title="Skriv eventuelle kommentarer her">?</span></label>
+                    <textarea id="comments" name="comments"></textarea>
+                </form>
+                <div class="form-navigation">
+                    <button class="prev-button"><a href="Roller.html">Forrige</a></button>
+                    <button class="next-button"><a href="Relasjoninfo.html">Videre</a></button>
+                </div>
+                <div class="no-relation">
+                    <button class="no-relation-button"><a href="BekreftUtenRelasjon.html">Ingen relasjon? Trykk her for å bekrefte informasjon</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>

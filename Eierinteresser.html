@@ -1,0 +1,96 @@
+<!-- Karanpreet -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Eierinteresser.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@1,800&display=swap" />
+    <title>Eierinteresser</title>
+</head>
+<body>
+    <div class="page-container">
+        <div class="navbar">
+            <div class="title">Habilitetsregisteret</div>
+            <div class="profile-section">
+                <div class="profile">
+                    <img src="Images/Ola.png" alt="Profile Picture">
+                    <span class="name">Ola Nordmann</span>
+                    <img src="Images/blå-bjelle.svg" alt="Varslinger">
+                    <img src="Images/blå-tusj.svg" alt="Oppgaver">
+                    <img src="Images/blå-pil.svg" alt="Loggut">
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="sidebar">
+                <div class="reminder">
+                    <p><strong>HUSK!</strong><br>Hvis du har andre eierinteresser enn det som fremkommer i oversikten må du registrere dette.</p>
+                </div>
+            </div>
+            <div class="main">
+                <h2>Opplyse om eksisterende eller tidligere eierinteresse</h2>
+                <form>
+                    <label for="country">Land * <span class="question-mark" title="Skriv inn landet hvor organisasjonen er registrert ">?</span></label>
+                    <input type="text" id="country" name="country">
+
+                    <label for="organization">Navn på organisasjon * <span class="question-mark" title="Skriv inn det fullstendige navnet på organisasjonen">?</span></label>
+                    <input type="text" id="organization" name="organization">
+
+                    <label for="org-number">Organisasjonsnummer * <span class="question-mark" title="Skriv inn organisasjonens unike organisasjonsnummer">?</span></label>
+                    <input type="text" id="org-number" name="org-number">
+
+                    <label>Er selskapet børsnotert * <span class="question-mark" title="Velg 'Ja' hvis selskapet er børsnotert, ellers velg 'Nei'">?</span></label>
+                    <div class="radio-group">
+                        <input type="radio" id="listed-yes" name="listed" value="yes">
+                        <label for="listed-yes">Ja</label>
+                        <input type="radio" id="listed-no" name="listed" value="no">
+                        <label for="listed-no">Nei</label>
+                    </div>
+
+                    <label for="share-class">Aksjeklasse * <span class="question-mark" title="Velg aksjeklassen fra rullegardinmenyen">?</span></label>
+                    <select id="share-class" name="share-class">
+                        <option value="">Velg...</option>
+                    </select>
+
+                    <label for="shares">Antall aksjer * <span class="question-mark" title="Skriv inn det totale antallet aksjer du eier i selskapet">?</span></label>
+                    <input type="number" id="shares" name="shares">
+
+                    <label>Status drift i selskapet * <span class="question-mark" title="Velg 'Aktiv' hvis selskapet fortsatt driver virksomhet, ellers velg 'Ikke Aktiv'">?</span></label>
+                    <div class="radio-group">
+                        <input type="radio" id="active" name="status" value="active">
+                        <label for="active">Aktiv</label>
+                        <input type="radio" id="inactive" name="status" value="inactive">
+                        <label for="inactive">Ikke Aktiv</label>
+                    </div>
+
+                    <label for="ownership">Eierkap fra ikke påkrevd <span class="question-mark" title="Oppgi eventuelt startdato for eierskap, hvis relevant">?</span></label>
+                    <input type="text" id="ownership" name="ownership">
+
+                    <label for="ownership2">Eierskap til ikke påkrevd <span class="question-mark" title="Oppgi eventuelt sluttdato for eierskap, hvis relevant">?</span></label>
+                    <input type="text" id="ownership2" name="ownership2">
+
+                    <label for="comments">Eventuelt kommentar <span class="question-mark" title="Skriv inn eventuelle kommentarer eller ytterligere informasjon som er relevant">?</span></label>
+                    <textarea id="comments" name="comments"></textarea>
+
+                    <label>Er forholdet relevant for din habilitet? <span class="question-mark" title="Velg 'Ja' hvis forholdet kan påvirke din habilitet, ellers velg 'Nei'">?</span></label>
+                    <div class="radio-group">
+                        <input type="radio" id="relevant-yes" name="relevant" value="yes">
+                        <label for="relevant-yes">Ja</label>
+                        <input type="radio" id="relevant-no" name="relevant" value="no">
+                        <label for="relevant-no">Nei</label>
+                    </div>
+                </form>
+                <div class="form-navigation">
+                    <button class="prev-button"><a href="Velkommen.html">Forrige</a></button>
+                    <button class="next-button"><a href="Roller.html">Videre</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,184 @@
+.logg-inn-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #113785;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    width: 1440px;
+    height: 100px;
+}
+.logg-inn-item {
+    position: absolute;
+    top: 965px;
+    left: 0px;
+    background-color: #113785;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    width: 1440px;
+    height: 59px;
+}
+.habilitetsregisteret {
+    position: absolute;
+    top: 20px;
+    left: 42px;
+    font-size: 40px;
+    font-weight: 100;
+    display: inline-block;
+    width: 413px;
+    height: 59px;
+}
+.logg-inn-inner {
+    position: absolute;
+    top: 242px;
+    left: 349px;
+    width: 743px;
+    height: 111px;
+    opacity: 0.25;
+}
+.rectangle-div {
+    position: absolute;
+    top: 455px;
+    left: 349px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+    background-color: #fff;
+    border: 8px solid #d3d3d3;
+    box-sizing: border-box;
+    width: 743px;
+    height: 100px;
+    opacity: 0.25;
+}
+.rectangle-div2{
+    position: absolute;
+    top: 250px;
+    left: 349px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+    background-color: #fff;
+    border: 8px solid #d3d3d3;
+    box-sizing: border-box;
+    width: 743px;
+    height: 100px;
+    opacity: 0.25;
+}
+.logg-inn-child1 {
+    position: absolute;
+    top: 700px;
+    left: 524px;
+    border-radius: 25px;
+    background-color: #66b2ff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    width: 336px;
+    height: 78px;
+}
+.logg-inn-child2 {
+    position: absolute;
+    top: 816px;
+    left: 522px;
+    border-radius: 25px;
+    background-color: #fff;
+    border: 1px solid #66b2ff;
+    box-sizing: border-box;
+    width: 336px;
+    height: 78px;
+}
+.opprett-bruker {
+    position: absolute;
+    top: 824px;
+    left: 552px;
+    font-size: 36px;
+    display: inline-block;
+    color: #113785;
+    width: 516px;
+    height: 95px;
+}
+.logg-inn1 {
+    position: absolute;
+    top: 710px;
+    left: 605px;
+    font-size: 40px;
+    display: inline-block;
+    width: 551px;
+    height: 58px;
+    text-decoration: none;
+    color: #ffff;
+}
+.jeg-har-glemt {
+    position: absolute;
+    top: 570px;
+    left: 510px;
+    color: #66b2ff;
+    display: inline-block;
+    width: 732px;
+    height: 83px;
+}
+.line-icon {
+    position: absolute;
+    top: 604px;
+    left: 490px;
+    width: 400px;
+    height: 0.6px;
+    object-fit: contain;
+}
+.e-postadresse {
+    position: absolute;
+    top: 10px;
+    left: 29px;
+}
+.e-postadresse-wrapper {
+    position: absolute;
+    top: 181px;
+    left: 356px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 5px solid #d3d3d3;
+    box-sizing: border-box;
+    width: 336px;
+    height: 61px;
+    overflow: hidden;
+    color: #000;
+}
+.passord {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+.passord-wrapper {
+    position: absolute;
+    top: 394px;
+    left: 356px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 5px solid #d3d3d3;
+    box-sizing: border-box;
+    width: 336px;
+    height: 61px;
+    overflow: hidden;
+    color: #000;
+}
+.image-18-icon {
+    position: absolute;
+    top: 268px;
+    left: 359px;
+    width: 83px;
+    height: 60px;
+    object-fit: cover;
+}
+.image-19-icon {
+    position: absolute;
+    top: 474px;
+    left: 366px;
+    width: 68px;
+    height: 68px;
+    object-fit: cover;
+}
+.logg-inn {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Noto Sans';
+}
+

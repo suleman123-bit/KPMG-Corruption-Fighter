@@ -1,0 +1,90 @@
+<!-- Alexander -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Roller.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@1,800&display=swap" />
+    <title>Roller</title>
+</head>
+<body>
+    <div class="page-container">
+        <div class="navbar">
+            <div class="title">Habilitetsregisteret</div>
+            <div class="profile-section">
+                <div class="profile">
+                    <img src="Images/Ola.png" alt="Profile Picture">
+                    <span class="name">Ola Nordmann</span>
+                    <img src="Images/blå-bjelle.svg" alt="Varslinger">
+                    <img src="Images/blå-tusj.svg" alt="Oppgaver">
+                    <img src="Images/blå-pil.svg" alt="Loggut">
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="sidebar">
+                <div class="reminder">
+                    <p><strong>HUSK!</strong><br>Hvis du har andre roller enn det som fremkommer i oversikten må du registrere dette.</p>
+                </div>
+            </div>
+            <div class="main">
+                <h2>Opplyse om eksisterende eller tidligere roller</h2>
+                <form>
+                    <label for="country">Land * <span class="question-mark" title="Land der selskapet er registrert">?</span></label>
+                    <input type="text" id="country" name="country">
+
+                    <label for="organization">Navn på organisasjonen * <span class="question-mark" title="Det fullstendige navnet på selskapet eller organisasjonen">?</span></label>
+                    <input type="text" id="organization" name="organization">
+
+                    <label for="org-number">Organisasjonsnummer * <span class="question-mark" title="Selskapets organisasjonsnummer">?</span></label>
+                    <input type="text" id="org-number" name="org-number">
+
+                    <label for="role-type">Type rolle * <span class="question-mark" title="Type rolle du har eller hadde">?</span></label>
+                    <select id="role-type" name="role-type">
+                        <option value="">Velg...</option>
+                    </select>
+
+                    <label for="role-title">Tittel på rolle * <span class="question-mark" title="Din tittel i rollen">?</span></label>
+                    <input type="text" id="role-title" name="role-title">
+
+                    <label for="municipality">Kommunen rollen utøves i <span class="question-mark" title="Kommunen der rollen utføres">?</span></label>
+                    <input type="text" id="municipality" name="municipality" placeholder="Postnr">
+                    <input type="text" id="municipality-location" name="municipality-location" placeholder="Poststed">
+
+                    <label for="honorarium">Månedlig honorar (NOK) <span class="question-mark" title="Hvor mye du tjener per måned i denne rollen">?</span></label>
+                    <input type="number" id="honorarium" name="honorarium">
+
+                    <label for="monthly-hours">Månedlig timeforbruk <span class="question-mark" title="Hvor mange timer du bruker per måned i denne rollen">?</span></label>
+                    <input type="number" id="monthly-hours" name="monthly-hours">
+
+                    <label for="position-from">Posisjon fra (ikke påkrevd) <span class="question-mark" title="Startdato for posisjonen, om påkrevd">?</span></label>
+                    <input type="date" id="position-from" name="position-from">
+
+                    <label for="position-to">Posisjon til (ikke påkrevd) <span class="question-mark" title="Sluttdato for posisjonen, om påkrevd">?</span></label>
+                    <input type="date" id="position-to" name="position-to">
+
+                    <label for="comments">Eventuelt kommentar <span class="question-mark" title="Skriv eventuelle kommentarer her">?</span></label>
+                    <textarea id="comments" name="comments"></textarea>
+
+                    <label>Er forholdet relevant for din habilitet? <span class="question-mark" title="Er forholdet relevant for din habilitet?">?</span></label>
+                    <div class="radio-group">
+                        <input type="radio" id="relevant-yes" name="relevant" value="yes">
+                        <label for="relevant-yes">Ja</label>
+                        <input type="radio" id="relevant-no" name="relevant" value="no">
+                        <label for="relevant-no">Nei</label>
+                    </div>
+                </form>
+                <div class="form-navigation">
+                    <button class="prev-button"><a href="Eierinteresser.html">Forrige</a></button>
+                    <button class="next-button"><a href="Relasjoner.html">Videre</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>

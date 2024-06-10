@@ -1,0 +1,206 @@
+body {
+    width: 100vw;
+    height: 1080px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 24px;
+    color: #000;
+    font-family: Inter;
+}
+.wireframe-24-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #113785;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100px;
+}
+.habilitetsregisteret {
+    position: absolute;
+    top: 18px;
+    left: 34px;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Noto Sans';
+    color: #fff;
+    display: inline-block;
+    width: 413px;
+    height: 59px;
+}
+.du-har-n {
+    position: absolute;
+    top: 117px;
+    left: calc(50% - 507px);
+    display: inline-block;
+    width: 1015px;
+    height: 77px;
+}
+.jeg-har-andre {
+    position: absolute;
+    top: 829px;
+    left: 59px;
+    font-size: 30px;
+    color: #fff;
+}
+.wireframe-24-item {
+    position: absolute;
+    top: 980px;
+    left: 0px;
+    background-color: #113785;
+    width: 100vw;
+    height: 58px;
+}
+.wireframe-24-inner {
+    position: absolute;
+    top: 126px;
+    left: 192px;
+    background-color: #113785;
+    width: 7px;
+    height: 43px;
+}
+.group-child {
+    position: absolute;
+    top: 36px;
+    left: calc(50% - 327.5px);
+    background-color: #113785;
+    width: 655px;
+    height: 11px;
+}
+.oppsummering-av-din {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 211.5px);
+}
+.rectangle-parent {
+    position: absolute;
+    top: 211px;
+    left: calc(50% - 327px);
+    width: 655px;
+    height: 47px;
+    font-size: 30px;
+}
+.group-item {
+    position: absolute;
+    top: 42px;
+    left: calc(50% - 453px);
+    background-color: #113785;
+    width: 906px;
+    height: 11px;
+}
+.oppsummering-av-relasjonen {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 453px);
+    display: inline-block;
+    width: 887px;
+}
+.rectangle-group {
+    position: absolute;
+    top: 528px;
+    left: calc(50% - 453px);
+    width: 906px;
+    height: 53px;
+    font-size: 30px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 288px;
+    left: 393px;
+    background-color: #113785;
+    width: 77px;
+    height: 11px;
+}
+.wireframe-24-child1 {
+    position: absolute;
+    top: 618px;
+    left: 393px;
+    background-color: #113785;
+    width: 77px;
+    height: 11px;
+}
+.wireframe-24-child2 {
+    position: absolute;
+    top: 666px;
+    left: 393px;
+    background-color: #113785;
+    width: 77px;
+    height: 11px;
+}
+.wireframe-24-child3 {
+    position: absolute;
+    top: 339px;
+    left: 393px;
+    background-color: #113785;
+    width: 77px;
+    height: 11px;
+}
+.wireframe-24-child4 {
+    position: absolute;
+    top: 390px;
+    left: 393px;
+    background-color: #113785;
+    width: 77px;
+    height: 11px;
+}
+.eierinteresser-selskap-a {
+    position: absolute;
+    top: 279px;
+    left: calc(50% - 140px);
+}
+.roller-styremedlem-i {
+    position: absolute;
+    top: 330px;
+    left: calc(50% - 179px);
+}
+.relasjoner-kari-nordmann {
+    position: absolute;
+    top: 381px;
+    left: calc(50% - 150px);
+}
+.eierinteresser-selskap-b {
+    position: absolute;
+    top: 609px;
+    left: calc(50% - 143px);
+}
+.roller-styremedlem-i1 {
+    position: absolute;
+    top: 662px;
+    left: calc(50% - 179px);
+}
+.frame-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 90px;
+    background-color: #113785;
+    width: 355px;
+    height: 152px;
+}
+.frame-item {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    border-radius: 90px;
+    background-color: #fff;
+    width: 308px;
+    height: 107px;
+}
+.fullfr-registrering {
+    position: absolute;
+    top: 52px;
+    left: calc(50% - 118.5px);
+    font-weight: 800;
+}
+.rectangle-container {
+    position: absolute;
+    top: 782px;
+    left: calc(50% - 177px);
+    width: 355px;
+    height: 152px;
+    overflow: hidden;
+    cursor: pointer;
+    color: #113785;
+    font-family: 'Noto Sans';
+}
